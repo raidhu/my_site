@@ -9,7 +9,7 @@ const Hero = () => {
   const handleDownload = () => {
     // Create a temporary link element
     const link = document.createElement('a')
-    link.href = '/resume/Raidhu_Resume.pdf'
+    link.href = '/my_site/resume/Raidhu_Resume.pdf'
     link.download = 'Raidhu_Resume.pdf'
     document.body.appendChild(link)
     link.click()
