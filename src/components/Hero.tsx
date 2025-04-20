@@ -52,7 +52,7 @@ const Hero = () => {
               colorScheme="blue"
               onClick={handleDownload}
             >
-              Download Resume
+              Download Resume 😎
             </Button>
           </MotionBox>
         </VStack>
